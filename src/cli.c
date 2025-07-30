@@ -11,11 +11,9 @@ void	cli_check(int ac, char **av)
 	}
 	else if (ac == 1)
 	{
-		if (strcmp(av[0], "PeekSys") != 0 && strcmp(av[0], "peeksys") != 0)
-		{
-			fprintf(stderr, "Error: Invalid command '%s'.\n", av[0]);
-			exit(EXIT_FAILURE);
-		}
+		//run_everything();
+		printf("placeholder for everything\n");
+		exit(EXIT_SUCCESS);
 	}
 	else
 		check_options(ac, av);
@@ -23,7 +21,7 @@ void	cli_check(int ac, char **av)
 
 static void check_options(int ac, char **av)
 {
-	int	i = 0;
+	int	i = 1;
 
 	while (i < ac)
 	{
@@ -44,7 +42,7 @@ static void check_options(int ac, char **av)
 			printf("  --temp\t\tShow temperature information\n");
 			printf("  --display\t\tDisplay system information\n");
 			printf("  --battery\tShow battery information\n");
-			printf("  --complete//--all or no options/arguments\tShow all information\n");
+			printf("  --all, --complete\tShow all information\n");
 			printf("  --help\t\tShow this help message\n");
 			printf("  --version\t\tShow version information\n");
 			printf("\nFull documentation <https://github.com/NunoAndrezo/PeekSys>\n");
@@ -65,15 +63,7 @@ static void check_options(int ac, char **av)
 		{
 			// Handle the options accordingly
 			printf("Option '%s' recognized.\n", av[i]);
-			call_correct_option(av[i]); // Placeholder for actual option handling
-		}
-		else if (strcmp(av[i], "--debug") == 0)
-		{
-			printf("Debug mode enabled.\n");
-		}
-		else if (strcmp(av[i], "--verbose") == 0)
-		{
-			printf("Verbose mode enabled.\n");
+			//call_correct_option(av[i]); // Placeholder for actual option handling
 		}
 		else
 		{
