@@ -35,7 +35,7 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 | GPU Info         | ✅       | ✅         |
 | RAM              | ✅       | ✅         |
 | Storage          | ✅       | ✅         |
-| Temperatures     | ✅       | ✅ (via OpenHardwareMonitor) |
+| Temperatures     | ✅       | ✅         |
 | Motherboard Info | ✅       | ✅         |
 | Network Info     | ✅       | ✅         |
 | Net Speed        | ✅       | ✅         |
@@ -43,14 +43,6 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 | Battery          | ✅       | ✅         |
 
 > **Note:** Windows support for temps and hardware info may require WMI access or 3rd-party tools like OpenHardwareMonitor.
-
----
-
-## 🖥️ Preview
-
-| Linux Terminal Output | Windows Terminal Output |
-|-----------------------|--------------------------|
-| ![](assets/linux_output.png) | ![](assets/windows_output.png) |
 
 ---
 
