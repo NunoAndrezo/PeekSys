@@ -46,6 +46,14 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 
 ---
 
+## 🖥️ Preview (in the making)
+
+| Linux Terminal Output | Windows Terminal Output |
+|-----------------------|--------------------------|
+| ![](assets/linux_output.png) | ![](assets/windows_output.png) |
+
+---
+
 ## 🚀 Usage
 
 ### 📦 Build
