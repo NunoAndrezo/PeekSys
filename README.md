@@ -1,6 +1,3 @@
-# PeekSys
-peeksys - Peek into your system hardware info
-
 <div align="center">
   <h1>📡 PeekSys</h1>
   <p><strong>Cross-platform system information tool for the terminal.</strong></p>
