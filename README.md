@@ -2,6 +2,9 @@
   <h1>📡 PeekSys</h1>
   <p><strong>Cross-platform system information tool for the terminal.</strong></p>
   <p>Linux + Windows | C | CLI-based</p>
+  > **🚧 Work in Progress**  
+  > This project is currently under development. Some features may be incomplete or subject to change.
+
   <img src="assets/demo.gif" alt="PeekSys demo" width="700">
 </div>
 
