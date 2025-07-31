@@ -8,7 +8,7 @@
 
 ---
 > **🚧 Work in Progress**  
-> This project is currently under development. Some features may be incomplete or subject to change.
+> This project is currently under development.
 
 ---
 ## 📦 What is PeekSys?
