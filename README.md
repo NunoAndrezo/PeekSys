@@ -7,8 +7,10 @@
 </div>
 
 ---
-> **🚧 Work in Progress 🚧**  
-> 🚧 This project is currently under development. 🚧
+<div align="center">
+🚧 Work in Progress 🚧
+<p>🚧 This project is currently under development 🚧
+</div>
 
 ---
 ## 📦 What is PeekSys?
