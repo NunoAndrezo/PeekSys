@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📡 PeekSys</h1>
+  <h1>PeekSys</h1>
   <p><strong>Cross-platform system information tool for the terminal.</strong></p>
   <p>Linux + Windows | C | CLI-based</p>
 
@@ -8,12 +8,12 @@
 
 ---
 <div align="center">
-🚧 Work in Progress 🚧
+Work in Progress
 <p>🚧 This project is currently under development 🚧
 </div>
 
 ---
-## 📦 What is PeekSys?
+## What is PeekSys?
 
 **PeekSys** is a lightweight, cross-platform command-line utility written in **C** that displays detailed system information, including:
 
@@ -32,7 +32,7 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 
 ---
 
-## ⚙️ Supported Platforms
+## Supported Platforms
 
 | Feature           | Linux ✅ | Windows ✅ |
 |------------------|----------|------------|
@@ -52,7 +52,7 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 
 ---
 
-## 🖥️ Preview (in the making)
+## Preview (in the making)
 
 | Linux Terminal Output | Windows Terminal Output |
 |-----------------------|--------------------------|
@@ -60,9 +60,9 @@ It’s fast, dependency-minimal, and modular — making it perfect for diagnosti
 
 ---
 
-## 🚀 Usage
+## Usage
 
-### 📦 Build
+### Build
 
 > Requires a C compiler (`gcc` or `clang`) and `make`.
 
@@ -71,10 +71,10 @@ git clone https://github.com/NunoAndrezo/PeekSys.git
 cd PeekSys
 make
 
-🧪 Run
+Run
 ./peeksys [options]
 
-🔧 Options
+Options
 --os           Show OS information
 --cpu          Show CPU information
 --gpu          Show GPU information
@@ -89,10 +89,10 @@ make
 --help         Show help
 --version      Show version info
 
-🧠 Default Behavior
+Default Behavior
 Running ./peeksys with no arguments will display all system info.
 
-📁 Project Structure
+Project Structure
 PeekSys/
 ├── src/
 │   ├── cpu/
@@ -108,7 +108,7 @@ PeekSys/
 ├── Makefile
 └── README.md
 
-📦 Dependencies
+Dependencies
 
     Linux:
         lscpu, lspci, xrandr, sensors, /proc
@@ -116,8 +116,8 @@ PeekSys/
         WMI (via wmic, or Win32_* API)
         Optionally: OpenHardwareMonitor for temps
 
-🤝 Contributing
+Contributing
 Want to improve or add features? Open an issue, fork the repo, and submit a PR!
 
-🧑‍💻 Author
+Author
 Made by @NunoAndrezo
