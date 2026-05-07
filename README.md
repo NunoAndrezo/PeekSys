@@ -14,7 +14,7 @@ PeekSys is a minimal system information utility written in C. It is designed to 
 ### Supported Operating Systems
 * **Linux**
 * **Windows**
-* 
+
 ### System Metrics
 PeekSys extracts and displays the following data points:
 - **OS & Kernel:** Name, version, and architecture.
@@ -41,7 +41,7 @@ None yet.
 ### Requirements
 - C compiler (GCC / Clang)
 - Make
-- **Linux:** `pciutils`, `lm-sensors`, and access to `/proc` / `/sys`.
+- **Linux:** `pciutils`, `lm-sensors`, and access to `/proc` & `/sys`.
 - **Windows:** MSVC or MinGW environment.
 
 ### Compile
@@ -65,6 +65,7 @@ Options:
   --disk          Show disk information
   --network       Show network and net speeds
   --temp          Show temperature info
+  --fans          Show fans speeds
   --display       Show display configuration
   --battery       Show battery info
   --all           Show everything
